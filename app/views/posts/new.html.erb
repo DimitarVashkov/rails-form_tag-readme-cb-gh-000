@@ -1,5 +1,9 @@
 <h1>Post Form</h1>
 
 <%= form_tag posts_path do %>
+  <%= label_tag :title %>
+  <%= text_field_tag :title %>
 
+      <%= label_tag :password %>
+      <%= password_field_tag :password %>
 <% end %>
